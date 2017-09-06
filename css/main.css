@@ -1,0 +1,318 @@
+/**************************
+GENERAL SECTION
+***************************/
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  /* THIS IS TO CHECK PADDING ONLY
+  background: orange;
+  */
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/**************************
+HEADING
+***************************/
+
+#logo {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  margin: 15px 0;
+  font-size: 1.90em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  margin: -5px 0 0;
+  font-size: 0.95em;
+  font-weight: normal;
+}
+
+
+nav {
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+/**************************
+NAVAGATION
+***************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 40px;
+  background-color: #adaa98;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+
+
+/**************************
+FOOTER
+***************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+/**************************
+PAGE: PORTFOLIO (HOME)
+***************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  text-align: center;
+  border-top: 10px solid #ffa949;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+}
+
+.box {
+  box-shadow: 5px 5px 5px -4px rgba(0,0,0, .8);
+}
+
+
+
+/**************************
+PAGE: ABOUT
+***************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+}
+
+
+
+/**************************
+PAGE: CONTACT
+***************************/
+
+/*This is the Contact Form*/
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+.container body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+	background:#0CF;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #60b0f4;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#ddd0b8;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#60b0f4;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+
+/**************************
+COLORS
+***************************/
+
+/*site body*/
+body {
+  background-color: #ededed;
+  color: #999;
+  opacity: 1.0;
+}
+
+header {
+  background: #ddd0b8;
+}
+
+h1, h2 {
+  color: #5d5e60;
+}
+
+h3 {
+  color: #60b0f4; <!--#60b0f4(lightblue) or #5d5e60(grey)-->
+}
+
+/*links*/
+a {
+  color: #b29f7b;
+}
+
+/*nav links*/
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav links*/
+nav a.currently, nav a:hover {
+  color:#5d5e60;
+}
+
+
+
+/*Fonts within code - sourced by google
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+*/
